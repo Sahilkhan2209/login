@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(Abstract\ Fluid\ Purple\ Dark\ Gradient\ for\ Glassmorphism\ Background\ Banner\ Ultra\ High\ Resolution.jpeg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .maindiv{
+        background-color: transparent ;
+        backdrop-filter: blur(2px);
+        width: 420px;
+        color: white;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 40px;
+        border: 2px solid gray;
+        
+
+
+    }
+    .maindiv h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .maindiv .input-box{
+        width: 100%;
+        height: 50px;
+        margin: 30,0;
+
+    }
+    .input-box input{
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgb(97, 128, 111);
+        border-radius: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px 45px 20px 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .input-box input::placeholder{
+        color: #fff;
+    }
+    .maindiv .cheak{
+        display: flex;
+        justify-content: space-between;
+        padding: -15px 0 15px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .cheak .label{
+        color: #fff;
+        margin-right: 3px;
+    }.cheak a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .btn{
+        width: 100%;
+        height: 45px;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .reg{
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+    }
+
+   
+</style>
+<body>
+    <div class="maindiv">
+        <form action="">
+            <h1>LOGIN</h1>
+            <br>    
+            <div class="input-box">
+                <input type="text" placeholder="username" required>
+                <i> <box-icon name='user'></box-icon></i>
+            </div>
+            <br>
+            <div class="input-box">
+                <input type="password" placeholder="password" required>
+                <box-icon name='lock-alt' ></box-icon>
+            </div>
+            <div class="cheak">
+                <label><input type="checkbox" >Remember me</label>
+                <a href="#">forgot password</a>
+            </div>
+            <button  class="btn" type="submit">LOGIN </button>
+            <div class="reg"><p>Dont Have An Account?</p>
+            <a href="#"> Register</a></div>
+        </form>
+    </div>
+   
+</body>
+</html>
